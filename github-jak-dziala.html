@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jak działa Git?</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Jak działa Git?</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Podstawowe pojęcia Git</h2>
+            <p>
+                Git jest systemem kontroli wersji, który śledzi zmiany w plikach w czasie. Działa w sposób 
+                rozproszony, co oznacza, że każda kopia repozytorium przechowuje pełną historię projektu, 
+                co umożliwia pracę bez stałego dostępu do internetu.
+            </p>
+
+            <h3>Jak działa Git?</h3>
+            <p>Git działa na zasadzie śledzenia zmian w plikach i przechowywania ich w repozytoriach. Proces ten przebiega w kilku etapach:</p>
+            <ol>
+                <li><strong>Repozytorium:</strong> Git przechowuje dane w tzw. repozytoriach. To miejsce, w którym znajdują się wszystkie wersje plików i historia zmian.</li>
+                <li><strong>Commit:</strong> Kiedy wprowadzasz zmiany w plikach, Git umożliwia zapisanie ich w postaci "commitów" – punktów kontrolnych, które przechowują zmiany w projekcie.</li>
+                <li><strong>Branch (gałąź):</strong> Git pozwala na pracę nad różnymi funkcjami w tzw. gałęziach. Każda gałąź jest niezależna i może być rozwijana, a później zintegrowana z główną gałęzią (master/main).</li>
+                <li><strong>Merge:</strong> Kiedy zmiany w różnych gałęziach są gotowe, mogą być łączone za pomocą operacji `merge`.</li>
+                <li><strong>Push/Pull:</strong> Git umożliwia synchronizację zmian pomiędzy lokalnym repozytorium a zdalnym repozytorium (np. na GitHubie) za pomocą komend `git push` i `git pull`.</li>
+            </ol>
+            <p>
+                Git jest niezwykle szybki, efektywny i sprawdza się zarówno w małych, jak i dużych projektach, 
+                pozwalając na łatwą współpracę zespołową i zarządzanie wersjami kodu.
+            </p>
+        </article>
+        <a href="index.html" class="button">Wróć do strony głównej</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eryk Cholewiński - GitHub</p>
+    </footer>
+</body>
+</html>
